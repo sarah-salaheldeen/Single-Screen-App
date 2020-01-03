@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Closet</string>
+    <string name="closet_boutique">Closet boutique</string>
+    <string name="business_description">reinvent your closet with our online clothing boutique</string>
+    <string name="website_info">feel free to check out our website: </string>
+    <string name="website_link">www.closet.com</string>
+    <string name="email_info">or you can reach out by email: </string>
+    <string name="email_address">info@closet.com</string>
+    <string name="website_icon_attribution"><a target="_blank" href="https://icons8.com/icons/set/domain">Website icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></string>
+    <string name="email_icon_attribution"><a target="_blank" href="https://icons8.com/icons/set/send-mass-email">Send Email icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></string>
+</resources>

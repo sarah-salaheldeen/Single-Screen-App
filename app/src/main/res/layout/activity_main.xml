@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/clothing_label_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/closet_boutique"
+            android:paddingBottom="16dp"
+            android:src="@drawable/clothing" />
+
+        <TextView
+            android:id="@+id/business_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="16dp"
+            android:paddingLeft="16dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="16dp"
+            android:text="@string/closet_boutique"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="16dp"
+            android:paddingLeft="16dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="16dp"
+            android:text="@string/business_description"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="16dp"
+            android:paddingLeft="16dp"
+            android:paddingEnd="16dp"
+            android:text="@string/website_info"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/icon_website2"
+            android:drawableLeft="@drawable/icon_website2"
+            android:gravity="center_vertical"
+            android:paddingStart="16dp"
+            android:paddingLeft="16dp"
+            android:paddingEnd="16dp"
+            android:text="@string/website_link"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="16dp"
+            android:paddingLeft="16dp"
+            android:paddingEnd="16dp"
+            android:text="@string/email_info"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/icon_email"
+            android:drawableLeft="@drawable/icon_email"
+            android:drawablePadding="16dp"
+            android:gravity="center_vertical"
+            android:paddingStart="32dp"
+            android:paddingLeft="32dp"
+            android:paddingEnd="32dp"
+            android:text="@string/email_address"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+    </LinearLayout>
+</ScrollView>
